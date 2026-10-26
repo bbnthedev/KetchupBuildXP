@@ -1,0 +1,42 @@
+# ================================
+# KetchupBuildXp Plugin Config
+# ================================
+
+xp:
+  command-reward: 5
+
+  hourly-reward: 100
+
+  commands-per-reward: 10
+
+afk:
+  timeout-minutes: 5
+
+gui:
+  menu-size: 54
+
+  menu-title: "&6&lXP Menu - XP Statistiky"
+
+messages:
+  xp-gained: "&a&lXP+ &7Získal jsi &e%amount%xp &7za aktivitu!"
+
+  afk-warning: "&c&lAFK &7Jsi nyní AFK a nepočítá se ti aktivita!"
+  afk-return: "&a&lZPĚT &7Vítej zpět! Aktivita se ti opět počítá."
+
+  xp-stats-header: "&6&l====== &e&lXP STATISTIKY &6&l======"
+  xp-stats-player: "&7%position%. &e%player% &7- &a%xp%xp"
+  xp-stats-personal: "&e%player% &7má &a%xp%xp &7(Pozice: &e#%position%&7)"
+  xp-stats-not-found: "&cHráč nebyl nalezen v databázi!"
+
+  xp-menu-lore:
+    - "&7XP: &a%xp%"
+    - "&7Pozice: &e#%position%"
+    - ""
+    - "&7Klikni pro více info!"
+
+  xp-removed: "&aHráč &e%player% &abyl odebrán ze seznamu!"
+  xp-reset: "&aVšechna XP data byla vyresetována!"
+
+  no-permission: "&cNemáš oprávnění k použití tohoto příkazu!"
+  player-not-found: "&cHráč nebyl nalezen!"
+  invalid-usage: "&cNesprávné použití! Použij: %usage%"

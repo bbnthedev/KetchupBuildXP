@@ -1,0 +1,13 @@
+bnthedev\rajce\pro\ketchupBuildXp\KetchupBuildXp.class
+bnthedev\rajce\pro\ketchupBuildXp\commands\XpStatsCommand.class
+bnthedev\rajce\pro\ketchupBuildXp\listeners\PlayerCommandListener.class
+bnthedev\rajce\pro\ketchupBuildXp\listeners\AxiomActivityListener.class
+bnthedev\rajce\pro\ketchupBuildXp\managers\XpManager.class
+bnthedev\rajce\pro\ketchupBuildXp\listeners\PlayerActivityListener.class
+bnthedev\rajce\pro\ketchupBuildXp\commands\XpResetCommand.class
+bnthedev\rajce\pro\ketchupBuildXp\managers\AfkManager.class
+bnthedev\rajce\pro\ketchupBuildXp\listeners\MenuListener.class
+bnthedev\rajce\pro\ketchupBuildXp\commands\XpMenuCommand.class
+bnthedev\rajce\pro\ketchupBuildXp\commands\XpRemoveCommand.class
+bnthedev\rajce\pro\ketchupBuildXp\gui\XpMenuGUI.class
+bnthedev\rajce\pro\ketchupBuildXp\managers\ConfigManager.class

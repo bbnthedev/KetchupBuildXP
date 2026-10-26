@@ -1,0 +1,33 @@
+name: KetchupBuildXp
+version: 1.0.0
+main: bnthedev.rajce.pro.ketchupBuildXp.KetchupBuildXp
+api-version: 1.21
+author: bnthedev
+description: Plugin pro sledování aktivity builderů
+softdepend: [Axiom]
+
+
+
+commands:
+  xpstats:
+    description: Zobrazí statistiky XP builderů
+    usage: /xpstats [nick]
+  xpmenu:
+    description: Otevře GUI menu s XP builderů
+    usage: /xpmenu
+  xpremove:
+    description: Odstraní buildera ze seznamu
+    permission: ketchupbuildxp.xpremove
+    usage: /xpremove <nick>
+  xpreset:
+    description: Vyresetuje všechna XP data
+    permission: ketchupbuildxp.xpreset
+    usage: /xpreset
+
+permissions:
+  ketchupbuildxp.xpremove:
+    description: Povolení pro příkaz /xpremove
+    default: op
+  ketchupbuildxp.xpreset:
+    description: Povolení pro příkaz /xpreset
+    default: op
